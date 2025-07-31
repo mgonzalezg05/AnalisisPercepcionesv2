@@ -232,7 +232,7 @@ body {
 .table-wrapper::-webkit-scrollbar { height: 8px; width: 8px; }
 .table-wrapper::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
 .table-wrapper table {
-  width: max-content; min-width: 100%;
+  width: 100%;
   border-collapse: collapse; font-size: 0.8rem;
 }
 
@@ -451,9 +451,8 @@ input:checked + .slider:before { transform: translateX(20px); }
 
 /* =========== ESTILOS PARA LISTA DE CONCILIACIONES =========== */
 #reconciliation-list-container {
-    max-height: 400px; /* Altura máxima de la lista */
-    overflow-y: auto; /* Scroll vertical si el contenido excede la altura */
-    padding-right: 1rem; /* Espacio para la barra de scroll */
+    max-height: 400px;
+    overflow-y: auto;
     border: 1px solid var(--border-color);
     border-radius: 8px;
 }
